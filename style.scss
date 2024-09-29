@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.logo {
+  width: 15rem;
+}
+
+.navBarlist {
+  justify-content: end;
+  a {
+    margin-right: 0.3rem;
+    border-radius: 5px;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Press Start 2P", system-ui;
+  }
+}
+
+.navBar {
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 1rem;
+}
+
+.bg-img {
+  height: 100vh;
+  background: fixed;
+  background-image: url(./img/minecraft-with-rtx-beta-of-temples-and-totems-003-rtx-on.png);
+  background-size: cover; /* Resim kutuyu tam doldurur */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat;
+}
+
+.bg-text {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  z-index: 1;
+  background-color: rgba(128, 128, 128, 0.3);
+  color: #fff;
+}
+
+.map-info {
+  height: 40vh;
+  background-color: #1e3e62;
+  h1 {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+}
+
+.map-info2 {
+  height: 40vh;
+  h1 {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+}
+
+.show-img {
+  &:hover {
+    opacity: 0.8;
+  }
+  height: 40vh;
+  background-size: cover; /* Resim kutuyu tam doldurur */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat;
+}
+
+.map-img {
+  @extend .show-img;
+  background-image: url(./img/cb99b44d-ff66-4142-a33b-2cda38a8f87b.webp);
+}
+
+.ft-sn {
+  a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+}
+
+.ft-text {
+  color: #fff;
+}
+
+.footer {
+  background-color: #1e3e62;
+}
+
+.ft {
+  margin-top: 1rem;
+  border-top: 1px solid #fff;
+}
+.map-show-img {
+  height: 100px;
+}
+
+.mainBox {
+  height: 100vh;
+}
+
+.map {
+  border-radius: 5px;
+  background-color: #1e3e62;
+  padding: 1.5rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.boxText {
+  text-align: center;
+  h3 {
+    font-size: 1rem;
+  }
+  color: #fff;
+  font-family: "Press Start 2P", system-ui;
+}
+
+.personBox {
+  img {
+    height: 200px;
+  }
+  &:hover {
+    opacity: 0.8;
+  }
+
+  border-radius: 5px;
+  gap: 1;
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: #1e3e62;
+}
